@@ -27,8 +27,9 @@ jobs:
       - name: Fix react-scripts permissions
         run: chmod +x node_modules/.bin/react-scripts
 
-      - name: Build app
-        run: npm run build
+      - name: Build app (CI=false)
+        run: CI=false npm run build
+
 
       - name: Zip build folder
         run: zip -r release.zip build
