@@ -1,0 +1,8 @@
+{
+    "appService.zipIgnorePattern": [
+        "node_modules{,/**}",
+        ".vscode{,/**}"
+    ],
+    "appService.defaultWebAppToDeploy": "/subscriptions/d18adf5b-c972-4524-8636-9fa63e668eb6/resourceGroups/thuanhunglongangroup/providers/Microsoft.Web/sites/Duanrac",
+    "appService.deploySubpath": "build"
+}

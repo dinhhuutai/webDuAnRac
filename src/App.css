@@ -1,0 +1,97 @@
+.App {
+  margin-top: 4px;
+  margin-left: 40px;
+  box-sizing: border-box;
+}
+
+*{
+  box-sizing: border-box;
+}
+
+div {
+  box-sizing: border-box;
+}
+
+.data-main {
+  margin-bottom: 6px;
+}
+
+.list-main {
+  display: inline-block;
+}
+
+.list-main:hover {
+  color: blue;
+  cursor: pointer;
+  text-decoration: underline;
+}
+
+.btn {
+  cursor: pointer;
+  outline: none;
+  background-color: rgb(43, 228, 43);
+  color: rgb(252, 249, 249);
+  border: none;
+  padding-top: 6px;
+  padding-bottom: 6px;
+  padding-left: 14px;
+  padding-right: 14px;
+  border-radius: 4px;
+  margin-top: 10px;
+}
+.btn:hover {
+  opacity: 0.7;
+}
+
+.qr {
+  margin-top: 4px;
+}
+
+.list-bp {
+  list-style: none;
+  display: inline-block;
+}
+
+.item-bp {
+  margin-top: 2px;
+  margin-bottom: 2px;
+}
+
+.item-bp:hover {
+  color: blue;
+  cursor: pointer;
+  text-decoration: underline;
+}
+
+
+
+
+.wrapper {
+  margin-top: 10px;
+  margin-left: 10px;
+  box-sizing: border-box;
+}
+
+.tb-title {
+  border: 1px solid #000;
+  padding: 4px;
+  size: 14px;
+  text-transform: uppercase;
+  display: flex;
+  justify-content: center;
+  font-weight: 600;
+}
+
+.tb-1 {
+  display: flex;
+  width: 2500px;
+}
+
+.tb-1-ca {
+  display: flex;
+}
+
+.tb-1-rac {
+  display: flex;
+}
+
