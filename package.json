@@ -19,11 +19,12 @@
     "react-dom": "^19.1.0",
     "react-router-dom": "^7.6.0",
     "react-scripts": "^5.0.1",
+    "serve": "^14.2.4",
     "web-vitals": "^2.1.4"
   },
   "scripts": {
-    "start": "react-scripts start",
-    "build": "CI=false react-scripts build",
+    "start": "serve -s build",
+    "build": "react-scripts build",
     "test": "echo \"Tests disabled\" && exit 0",
     "eject": "react-scripts eject"
   },
