@@ -24,10 +24,13 @@ jobs:
       - name: Install dependencies
         run: npm install
 
+      - name: Fix react-scripts permissions
+        run: chmod +x node_modules/.bin/react-scripts
+
       - name: Build app
         run: npm run build
 
-      - name: Zip build folder for deployment
+      - name: Zip build folder
         run: zip -r release.zip build
 
       - name: Upload artifact
@@ -59,6 +62,6 @@ jobs:
       - name: 'Deploy to Azure Web App'
         uses: azure/webapps-deploy@v3
         with:
-          app-name: 'Duanrac' # Thay bằng tên App Service thực tế
+          app-name: 'Duanrac' # thay tên thật nếu khác
           slot-name: 'Production'
           package: build
